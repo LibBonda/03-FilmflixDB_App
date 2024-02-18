@@ -1,0 +1,43 @@
+/* Style the App page */
+body {
+    margin: 0;
+    padding:0;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-repeat: cover;    
+    background-position: center;
+   }
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+}
+
+h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 3vw;
+    color: brown;
+    text-shadow: 5px 5px 5px rgba(16, 16, 63, 0.85);
+    border: 5px solid brown;
+    border-radius: 15px;
+    padding: 10px;
+    display:inline-block; /*Make the border wrap around the content */
+    max-width: 100%; /* Ensure the heading doesn't overflow container */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    
+}
+
+
+iframe {
+        
+    position: relative;
+    margin: 0 auto; /* Center the iframe horizontally */
+    border-width: 10px;
+    width: 80%; /* Adjusted width for better responsiveness */
+    max-width: 100%; /* Ensure the iframe doesn't overflow its container */
+    height: 75vh; /* Adjusted height for better visibility on all devices */
+    
+}
+
